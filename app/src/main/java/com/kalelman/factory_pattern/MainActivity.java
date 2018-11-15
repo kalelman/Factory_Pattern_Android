@@ -79,11 +79,11 @@ public class MainActivity extends AppCompatActivity {
                 .append("\n")
                 .append(facebookFactory.getFacebookProfiles("Monch").profile())
                 .append("\n")
-                .append(facebook.location())
+                .append(facebookFactory.getFacebookProfiles("Monch").location())
                 .append("\n")
                 .append(facebookFactory.getFacebookProfiles("Mimotes").profile())
                 .append("\n")
-                .append(facebook.location())
+                .append(facebookFactory.getFacebookProfiles("Mimotes").location())
                 .toString());
     }
 }
